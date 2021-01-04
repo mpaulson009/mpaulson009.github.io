@@ -1,0 +1,32 @@
+
+.title{
+    background-image: url(./MainPhoto.jpg);
+    background-size: cover;
+    background-position: 100% 20%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    padding-bottom: 700px;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    
+}
+
+.title h1{
+    background-color: rgb(0, 0, 0);
+    opacity: .5;
+    margin: 50px;
+}
+footer{
+    margin: auto;
+}
+
+.fastLinks a{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    justify-content: space-around;
+    display: inline-block;
+    padding: 10px;
+}
