@@ -1,23 +1,24 @@
 
+header{
+    text-align: center;
+}
+
 .title{
     background-image: url(./MainPhoto.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: 100% 20%;
     background-repeat: no-repeat;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    
-    padding-bottom: 450px;
+    height: 700px;
     font-size: 30px;
     color:rgb(255, 255, 255);
-    
 }
 
 .title h1{
     background-color: rgb(0, 0, 0);
     opacity: .5;
-    margin: 50px;
+    margin-top: 0%;
     border: 3px dotted rgba(17, 0, 250, 0.514);
 }
 footer{
@@ -26,8 +27,8 @@ footer{
 
 .fastLinks a{
     font-size: 20px;
+    text-align: center;
     font-weight: bold;
-    margin-top: 0px;
     justify-content: space-around;
     display: inline-block;
     padding: 10px;
