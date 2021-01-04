@@ -1,13 +1,14 @@
 
 .title{
     background-image: url(./MainPhoto.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: 100% 20%;
     background-repeat: no-repeat;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    padding-top: 100px;
-    padding-bottom: 700px;
+    
+    padding-bottom: 450px;
     font-size: 30px;
     color:rgb(255, 255, 255);
     
@@ -17,6 +18,7 @@
     background-color: rgb(0, 0, 0);
     opacity: .5;
     margin: 50px;
+    border: 3px dotted rgba(17, 0, 250, 0.514);
 }
 footer{
     margin: auto;
