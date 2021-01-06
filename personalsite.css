@@ -3,44 +3,49 @@ header{
     text-align: center;
 }
 
-body{
-    background-color: rgba(119, 136, 153, 0.096);
-    margin: 0px;
-}
 
 .body{
     text-align: left;
-    margin-left: 35%;
-    margin-right: 10%;
+    position: relative;
+
 }
 
-main{
-    margin: 10px;
+p{
+    
+}
+
+body{
+    margin:0px;
+    background-color:	rgb(27,27,27);
+    color: mintcream;
 }
 .bio{
     font-size: 15px;
-    margin-top: 60%;
-    background-color: rgba(81, 96, 112, 0.863);
+    margin-top: 70%;
+    background-color: rgba(51, 140, 213, 0.295);
     background-attachment: fixed;
 }
 .title{
     background-image: url(./MainPhoto.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-position: center;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     height: 100%;
     font-size: 30px;
-    color:rgb(226, 226, 226);
+    color:rgb(255, 253, 253);
+    background-color: rgba(53, 53, 53, 0.993);
 }
 
 .title h1{
-    background-color: rgb(0, 0, 0);
+    background-color:rgba(53, 53, 53, 0.993);
     opacity: .5;
     margin-top: 0%;
-    border: 3px dotted rgba(17, 0, 250, 0.514);
+    border: 3px solid rgba(247, 248, 250, 0.205);
+    color: rgba(255, 255, 255, 1)
 }
 footer{
     margin: auto;
@@ -49,6 +54,7 @@ footer{
 .fastLinks a{
     font-size: 20px;
     text-align: center;
+    color: rgb(51,139,213);
     font-weight: bold;
     justify-content: space-around;
     display: inline-block;
@@ -57,4 +63,13 @@ footer{
 
 li{
     text-align: left;
+}
+
+.gitlogo{
+    height: 60px;
+    width: 60px;
+}
+
+h2{
+    color: rgb(51,139,213);
 }
