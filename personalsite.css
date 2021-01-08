@@ -22,7 +22,7 @@ body{
 .bio{
     font-size: 15px;
     margin-top: 70%;
-    background-color: rgba(51, 140, 213, 0.295);
+    background-color: rgba(12, 58, 95, 0.493);
     background-attachment: fixed;
 }
 .title{
@@ -72,4 +72,35 @@ li{
 
 h2{
     color: rgb(51,139,213);
+}
+
+#aboutMe, #education{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    background-color: rgba(146, 102, 146, 0.103);
+    border: 3px solid rgba(51, 140, 213, 0.356);
+    border-radius: 25px;
+    padding: 3%;
+}
+
+.description{
+    background-color: rgba(146, 102, 146, 0.103);
+    border: 3px solid rgba(51, 140, 213, 0.356);
+    border-radius: 25px;
+    padding: 3%;
+}
+
+#txState{
+    background-color: rgba(146, 102, 146, 0.103);
+    border: 3px solid rgba(51, 140, 213, 0.356);
+    border-radius: 25px;
+    padding: 3%;
+    width: 60%;
+}
+
+#txStateLogo{
+    height: 30%;
+    width: 30%;
+    margin-right: 5%;
 }
