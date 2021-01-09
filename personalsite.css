@@ -10,10 +10,6 @@ header{
 
 }
 
-p{
-    
-}
-
 body{
     margin:0px;
     background-color:	rgb(27,27,27);
@@ -72,9 +68,6 @@ li{
 
 h2{
     color: rgb(51,139,213);
-}
-
-#aboutMe, #education{
     text-align: center;
     margin: auto;
     width: 50%;
@@ -92,15 +85,24 @@ h2{
 }
 
 #txState{
+    margin: auto;
     background-color: rgba(146, 102, 146, 0.103);
     border: 3px solid rgba(51, 140, 213, 0.356);
     border-radius: 25px;
     padding: 3%;
-    width: 60%;
+    width: 40%;
+    text-align: center;
 }
 
 #txStateLogo{
-    height: 30%;
-    width: 30%;
-    margin-right: 5%;
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projectedGrad{
+    font-size: 15px;
+    text-align: center;
 }
