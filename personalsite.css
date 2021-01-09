@@ -25,12 +25,12 @@ body{
     background-image: url(./MainPhoto.jpg);
     background-attachment: fixed;
     background-position: center;
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
-    width: 100%;
+    width: auto;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    height: 100%;
+    height: auto;
     font-size: 30px;
     color:rgb(255, 253, 253);
     background-color: rgba(53, 53, 53, 0.993);
