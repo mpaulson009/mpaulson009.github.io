@@ -7,11 +7,10 @@ header{
 .body{
     text-align: left;
     position: relative;
-
 }
 
 body{
-    margin:0px;
+    margin:2%;
     background-color:	rgb(27,27,27);
     color: mintcream;
 }
@@ -20,6 +19,7 @@ body{
     margin-top: 70%;
     background-color: rgba(12, 58, 95, 0.493);
     background-attachment: fixed;
+    padding: 2%;
 }
 .title{
     background-image: url(./MainPhoto.jpg);
@@ -44,7 +44,11 @@ body{
     color: rgba(255, 255, 255, 1)
 }
 footer{
-    margin: auto;
+    display: inline;
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    text-align: center;
+    padding: 1%;
+    word-spacing: 5px;
 }
 
 .fastLinks a{
@@ -66,7 +70,7 @@ li{
     margin: 2%;;
 }
 
-.gitlogo, .linkedInLogo {
+.gitlogo, .linkedInLogo, .handshakeLogo {
     height: 60px;
     width: 60px;
     display: inline-block;
