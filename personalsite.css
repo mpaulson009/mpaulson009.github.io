@@ -24,8 +24,8 @@ body{
 .title{
     background-image: url(./MainPhoto.jpg);
     background-attachment: fixed;
-    background-position: center;
-    background-size: auto;
+    background-position:center;
+    background-size:cover;
     background-repeat: no-repeat;
     width: auto;
     text-align: center;
@@ -43,22 +43,16 @@ body{
     border: 3px solid rgba(247, 248, 250, 0.205);
     color: rgba(255, 255, 255, 1)
 }
+
 footer{
-    display: inline;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border: 1px solid rgba(255, 255, 255, 0.281);
     text-align: center;
     padding: 1%;
     word-spacing: 5px;
-}
-
-.fastLinks a{
-    font-size: 20px;
-    text-align: center;
-    color: rgb(51,139,213);
-    font-weight: bold;
-    justify-content: space-around;
-    display: inline-block;
-    padding: 10px;
 }
 
 li{
@@ -89,14 +83,6 @@ h2{
     padding: 3%;
 }
 
-.description{
-    background-color: rgba(146, 102, 146, 0.103);
-    border: 3px solid rgba(51, 140, 213, 0.356);
-    border-radius: 25px;
-    padding: 3%;
-    margin: 3%;
-}
-
 #txState{
     margin: auto;
     background-color: rgba(146, 102, 146, 0.103);
@@ -118,23 +104,4 @@ h2{
 #projectedGrad{
     font-size: 15px;
     text-align: center;
-}
-
-#workExperience{
-    background-color: rgba(255, 255, 255, 0.76);
-    color:rgba(37, 36, 37, 0.897);
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-radius: 5px;
-    padding: 3.5%; 
-    border: 3px solid rgba(51, 140, 213, 0.556); 
-}
-
-#volunteer p{
-    background-color: rgba(146, 102, 146, 0.103);
-    border: 3px solid rgba(51, 140, 213, 0.356);
-    border-radius: 25px;
-    padding: 3%;
 }
